@@ -1,5 +1,4 @@
 import React from 'react'
-import 'babel-polyfill'
 
 class Index extends React.Component {
   mark (center, degree, radius, index=1) {

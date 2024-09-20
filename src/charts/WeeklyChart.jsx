@@ -1,6 +1,5 @@
 import React from 'react'
 import Chronodex from './../Chronodex.jsx'
-import 'babel-polyfill'
 
 class WeeklyChart extends React.Component {
   filterEvents (events, year, month, day) {

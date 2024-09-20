@@ -1,6 +1,5 @@
 import React from 'react'
 import Chronodex from './../Chronodex.jsx'
-import 'babel-polyfill'
 
 class MonthlyCalendar extends React.Component {
   filterEvents (events, year, month, date) {

@@ -72,7 +72,7 @@ class DailyCalendar extends React.Component {
                     padding: '0 10px 0 10px',
                     background: 'whitesmoke',
                     width: '250'
-                  } }>{descriptions.split(",").join(", ")}</td>
+                  } }>{descriptions != null ? descriptions.split(",").join(", "): ""}</td>
                 </tr>
               )
             })
