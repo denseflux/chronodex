@@ -21,6 +21,7 @@ class DailyCalendar extends React.Component {
     let { events } = this.props
 
     if (events.length > 0) {
+      console.log("renderHeader", events)
       let [start, end, summaries] = events[0]
 
       return (
